@@ -2,53 +2,92 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Space_Cowb0y</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
-    <link rel="stylesheet" href="main.css">
-<style></style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Space Cowb0y.dev</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
 <body>
-    <div class="typeme"><span class="text-secondary">bruno@spacecowboy.dev</span><span class="text-background">~ </span><span class="cursor">$ </span>me -h</div>
-       <section class="output">
-    <ul class="links">
-    <li>
-        <a class="linkedin" href="https://linkedin.com/" alt="linkedin" target="_blank">
-            LinkedIn
-        </a>
-    </li>
-    <li>
-        <a class="youtube" href="https://youtube.com/" alt="youtube" target="_blank">
-            YouTube
-        </a>
-    </li>
-    <li>
-        <a class="twitter" href="https://twitter.com/" alt="twitter" target="_blank">
-            Twitter
-        </a>
-    </li>
-    <li>
-        <a class="github" href="https://github.com/" alt="github" target="_blank">
-            Github
-        </a>
-    </li>    
-    <li>
-        <a class="instagram" href="https://instagram.com/" alt="instagram" target="_blank">
-            Instagram
-        </a>
-    </li>    
-
-    </ul>
-    <p></p>
-
-<div><span class="text-secondary">bruno@spacecowboy.dev</span><span class="text-background">~ </span><span class="cursor">$ </span>glow interests.md</div>
-<h3>Interests</h3>
-    <ul>
-
-    </ul>
-
-    </section>
-<footer>
-   
-</footer>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id=""></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>SpaceCowb0y.dev</h1>
+        <h2>Security Analyst / 80% Robot 20% Human</h2>
+        <div id="menu">
+            <a onclick="showabout()">about</a>
+            <a onclick="showwork()">work</a>
+            <a onclick="showcontact()">contact</a>
+        </div>
+        <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a href="https://github.com/Space-Cowb0y" target="_blank" class="social"><i class="fab fa-github"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a href="https://www.linkedin.com/in/bruno-henrique-carvalho/" target="_blank" class="social"><i class="fab fa-linkedin"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a href="https://instagram.com/brunohoc" target="_blank" class="social"><i class="fab fa-instagram"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a href="https://open.spotify.com/playlist/7HVv0irD52kjt8U7NzXKk6?si=c7062b0871d7452e" target="_blank" class="social"><i class="fab fa-spotify"></i></a></td>
+                </tr>
+        </table>
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1>works.</h1>
+        <section>
+            <h2>work title</h2>
+            <p>
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+            </div>
+        </section>
+    </div>
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h1>about.</h1>
+            <section>
+                <h2>about me</h2>
+                <p>
+                    
+                </p>
+                <p>
+                    
+                </p>
+            </section>
+            <section>
+                <h2>skills</h2>
+                <p>
+                    i do eveything ;)
+                </p>
+            </section>
+        </div>
+          <div id="contact_container" class="container">
+            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+            <h1>contact.</h1>
+            <section>
+                <h2>contact me</h2>
+                
+            </section>
+        </div>
+        <div id="footer">
+            theme by <br> <a href="https://imfunniee.github.io">imfunniee</a>
+        </div>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
