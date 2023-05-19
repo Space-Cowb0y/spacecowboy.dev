@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital@1&display=swap');
 
 body {
     padding:0px;
@@ -8,7 +8,7 @@ body {
     width:100vw;
     height:100vh;
     overflow:hidden;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Bitter', serif;
 }
 #loading {
     width: 100vw;
@@ -218,7 +218,7 @@ body {
 }
 .btn_one {
     font-size:18px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Bitter', serif;
     color:#fff;
     background:transparent;
     border:3px solid #fff;
@@ -235,7 +235,7 @@ body {
 }
 .btn_two {
     font-size:18px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Bitter', serif;
     color:rgba(236, 223, 41, 1);
     background:#fff;
     border:3px solid #fff;
@@ -256,7 +256,7 @@ body {
     border:0px;
     border-bottom:3px solid rgba(255,255,255,0.5);
     padding:8px 10px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Bitter', serif;
     font-size:18px;
     transition:0.4s ease-in-out;
     color:#fff;
@@ -269,7 +269,7 @@ body {
     border:0px;
     border-bottom:3px solid rgba(255,255,255,0.5);
     padding:8px 10px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Bitter', serif;
     font-size:18px;
     background:transparent;
     resize:none;
