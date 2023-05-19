@@ -12,7 +12,11 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,700;1,400&display=swap');
 
 * {
+<<<<<<< HEAD
   background: #000000ce;
+=======
+  background: #0000000;
+>>>>>>> 837a040a700b2ef4280782e3a8159cb4e8651c54
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 500;
   color: #c6d0f5;
