@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
 body {
     padding:0px;
@@ -8,7 +8,7 @@ body {
     width:100vw;
     height:100vh;
     overflow:hidden;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 #loading {
     width: 100vw;
@@ -80,7 +80,7 @@ body {
 }
 #middle h1 {
     color:rgba(196, 183, 1, 1);
-    font-size:60px;
+    font-size:50px;
     text-decoration:underline;
 }
 #about {
@@ -209,7 +209,8 @@ body {
     cursor:text;
 }
 .container h1 {
-    font-size:60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:50px;
     text-decoration:underline;
 }
 .container p {
@@ -217,7 +218,7 @@ body {
 }
 .btn_one {
     font-size:18px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
     color:#fff;
     background:transparent;
     border:3px solid #fff;
@@ -234,7 +235,7 @@ body {
 }
 .btn_two {
     font-size:18px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
     color:rgba(236, 223, 41, 1);
     background:#fff;
     border:3px solid #fff;
@@ -255,7 +256,7 @@ body {
     border:0px;
     border-bottom:3px solid rgba(255,255,255,0.5);
     padding:8px 10px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size:18px;
     transition:0.4s ease-in-out;
     color:#fff;
@@ -268,7 +269,7 @@ body {
     border:0px;
     border-bottom:3px solid rgba(255,255,255,0.5);
     padding:8px 10px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size:18px;
     background:transparent;
     resize:none;
